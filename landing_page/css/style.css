@@ -1,3 +1,14 @@
+/*
+Paleta de colores:
+
+  --dark-color: #164E63;
+  --mid-color: #41CBBF;
+  --light-color: #F8FAFC;
+  --gray-color: #BEC9DF;
+
+
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,4 +16,34 @@
 }
 html{
     scroll-behavior: smooth;
+}
+body{
+    background-color: #F8FAFC !important;
+}
+
+/* headear */
+
+.bg-color-mid{
+    background-color: #41CBBF !important;
+}
+.color-mid {
+    color: #41CBBF !important;
+}
+.color-light{
+    color: #F8FAFC!important;
+}
+
+/*Resto de la pagina*/
+
+section.form {
+    background-color: #41CBBF;
+    color: #F8FAFC;
+}
+section.data {
+    background-color: #F8FAFC;
+    color: #164E63;
+}
+footer{
+    background-color: #BEC9DF;
+    color: #164E63;
 }
