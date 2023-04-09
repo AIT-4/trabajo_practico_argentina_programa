@@ -33,6 +33,15 @@ body{
     color: #F8FAFC!important;
 }
 
+.texto-titulo {
+    font-size: 2.5vw;
+}
+
+.img-logo {
+    height: 95px;
+    width: 90px;
+}
+
 /*Resto de la pagina*/
 
 section.form {
