@@ -34,17 +34,20 @@ body{
 }
 
 .texto-titulo {
-    font-size: 2.5vw;
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .img-logo {
     height: 95px;
     width: 90px;
+    border-radius: 20px;
 }
 
 /*Resto de la pagina*/
 h1{
-
     font-size: 1000px;
 }
     padding: 20px;
@@ -97,4 +100,67 @@ section.data {
 footer{
     background-color: #BEC9DF;
     color: #164E63;
+}
+
+@media (max-width: 1400px) {
+    .flex-container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .texto-titulo {
+        font-size: 3.2rem;
+    }
+
+    .flex-item-left {
+        flex: 25%;
+    }
+
+    .flex-item-center {
+        flex: 50%;
+    }
+
+    .flex-item-right {
+        flex: 25%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .texto-titulo {
+        font-size: 2.8rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .flex-item-center {
+        text-align: center;
+    }
+
+    .flex-item-right {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+}
+
+@media (max-width: 600px) {
+    .texto-titulo {
+        font-size: 2.2rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .img-logo {
+        height: 75px;
+        width: 70px;
+        border-radius: 20px;
+    }
+
+    .nav-item {
+        width: 90px;
+        font-size: 12px;
+    }
 }
