@@ -43,13 +43,18 @@ body{
 }
 
 /*Resto de la pagina*/
+h1{
+
+    font-size: 1000px;
+}
+    padding: 20px;
+    margin: 20px;
+}
 .expForm{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.8vw;
     font-weight: bolder;
+    font-size: 30px;
     color:white
-
-
 }
 
 section.form {
