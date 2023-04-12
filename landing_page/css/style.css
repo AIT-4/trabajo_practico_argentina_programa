@@ -47,17 +47,20 @@ body{
 }
 
 /*Resto de la pagina*/
-h1{
-    font-size: 1000px;
-}
-    padding: 20px;
-    margin: 20px;
-}
-.expForm{
+.tituloF{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    font-size: 30px;
-    color:white
+    font-size: 2.9rem;
+    padding: 20px;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.expF{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    color:white;
+    padding-top: 50px;
 }
 
 section.form {
