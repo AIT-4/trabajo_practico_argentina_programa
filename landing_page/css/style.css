@@ -46,7 +46,8 @@ body{
     border-radius: 20px;
 }
 
-/*Resto de la pagina*/
+/*Section uno y dos*/
+
 .tituloF{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
@@ -98,10 +99,18 @@ section.data {
     background-color: #F8FAFC;
     color: #164E63;
 }
+.slices {
+    display: none;
+}
+
+/* Footer */
+
 footer{
     background-color: #BEC9DF;
     color: #164E63;
 }
+
+/* @media */
 
 @media (max-width: 1400px) {
     .flex-container {
