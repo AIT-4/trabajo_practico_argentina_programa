@@ -21,7 +21,7 @@ body {
     background-color: #F8FAFC !important;
 }
 
-/* headear */
+/* Headear */
 
 .bg-color-mid {
     background-color: #41CBBF !important;
@@ -32,33 +32,28 @@ body {
 .color-light {
     color: #F8FAFC!important;
 }
-
 .texto-titulo {
     font-size: 4rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 10px;
     padding-left: 10px;
 }
-
 .img-logo {
     height: 95px;
     width: 90px;
     border-radius: 20px;
 }
 
-/*Resto de la pagina*/
+/* Section uno y dos*/
+
 .tituloF{
     font-weight: bolder;
-    color: white
-   
+    color: white   
 }
-
-.expF{
-   
+.expF{  
     color:white;
     padding-top: 50px;
 }
-
 section.form {
     background: linear-gradient(#41cbbf, #F8FAFC);
 }
@@ -67,12 +62,10 @@ form {
     padding: 20px;
     border-radius: 10px;
 }
-
 .form-group, #com {
     padding: 5px;
     border-radius: 10px;   
 }  
-
 #btn { 
     background-color: #41cbbf;
     color: #fff;
@@ -90,6 +83,10 @@ label {
     padding: 3px;
     margin: 5px;
 }
+section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 section.data {
     background-color: #F8FAFC;
     color: #164E63;
@@ -100,6 +97,10 @@ section h2 {
     margin-bottom: 50px;
     text-align: center;
 }
+img.border {
+    border-radius: 10px;
+}
+
 /* Footer */
 
 footer {
@@ -108,7 +109,6 @@ footer {
     background-color:#164E63;
     color: #BEC9DF;
 } 
-
 .container__footer {
     display:flex;
     flex-wrap: wrap;
@@ -116,32 +116,26 @@ footer {
     max-width: 1200px;
     margin: auto;
 }
-
 .box__footer {
     display: flex;
     flex-direction: column;
     padding: 50px;
 }
-
 .box__footer h2 {
     margin-bottom: 30px;
     color: #F8FAFC;
     font-weight: 700;
 }
-
 .box__footer a {
    margin-top: 10px;
    color: #F8FAFC;
    font-weight: 700;
 }
-
 .box__copy {
     max-width: 1200;
     margin: auto;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 .box__copy {
     margin-top: 20px;
     color: #d6d6d6;
