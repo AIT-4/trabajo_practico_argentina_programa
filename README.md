@@ -1,7 +1,7 @@
 # Trabajo Practico
 ### Argentina Programa
 
-Repositorio del Grupo 12.
+Repositorio del Grupo 12 - Comisión 180. 
 <br>
 Integrantes: [Martina Maurizi](https://github.com/martu2912), [Jose Luis Barrio](https://github.com/joseluis-b89), [Federico Durussel](https://github.com/AIT-4) y [Diego Andrade](dandradex24@gmail.com)
 <br>
