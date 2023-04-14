@@ -46,16 +46,14 @@ body {
     border-radius: 20px;
 }
 
-/*Section uno y dos*/
-
-.tituloF {
+/*Resto de la pagina*/
+.tituloF{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    font-size: 2.9rem;
-    padding-top: 30px;
+   
 }
 
-.expF {
+.expF{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.5rem;
     color:white;
