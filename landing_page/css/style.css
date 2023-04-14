@@ -49,6 +49,7 @@ body {
 /*Resto de la pagina*/
 .tituloF{
     font-weight: bolder;
+    color: white
    
 }
 
@@ -59,8 +60,7 @@ body {
 }
 
 section.form {
-    background-color: #41CBBF;
-    color: #F8FAFC;
+    background: linear-gradient(#41cbbf, #F8FAFC);
 }
 form {
     background-color: #164e63;
