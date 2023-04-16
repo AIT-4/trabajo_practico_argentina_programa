@@ -54,6 +54,11 @@ body {
     color:white;
     padding-top: 50px;
 }
+
+#textF{
+    opacity: 0;
+}
+
 section.form {
     background: linear-gradient(#41cbbf, #F8FAFC);
 }
