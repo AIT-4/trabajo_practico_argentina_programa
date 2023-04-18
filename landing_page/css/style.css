@@ -66,10 +66,11 @@ form {
     background-color: #164e63;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.63) 0 1px 5px;  
 }
 .form-group, #com {
     padding: 5px;
-    border-radius: 10px;   
+    border-radius: 10px; 
 }  
 #btn { 
     background-color: #41cbbf;
@@ -101,11 +102,13 @@ section h2 {
     text-align: center;
 }
 .border-radious {
-    border-radius: 10px;
     margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(27,31,35,.15) 0 1px 5px;
 }
 img.border {
     border-radius: 10px;
+    box-shadow: rgba(27,31,35,.15) 0 1px 5px;
 }
 
 /* Footer */
@@ -148,6 +151,10 @@ footer {
     color: #d6d6d6;
     margin: auto;
     text-align: center;
+}
+
+.texto-footer {
+    font-size: 25px;
 }
 
 /* @media */
@@ -196,6 +203,10 @@ footer {
 }
 
 @media (max-width: 600px) {
+    ul.nav {
+        display: none;
+    }
+
     .texto-titulo {
         font-size: 2.2rem;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -213,4 +224,13 @@ footer {
         width: 90px;
         font-size: 12px;
     }
+
+    .border-radious {
+    border-radius: 0px;
+    }
+
+    .texto-footer {
+        font-size: 20px;
+    }
+    
 }
